@@ -58,7 +58,7 @@ public class Algebra_problems {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(getSn1(8));
+		System.out.println(getSn1(5));
 		System.out.println(getSn2(4));
 		System.out.println(getSn3(3));
 		System.out.println(sumGetSn4(3));

@@ -44,7 +44,7 @@ public class Pascal_triangle {
 		for (int i = 1; i <= n; i++) {
 			// space
 			for (int j = 1; j <= n - i; j++) {
-				System.out.print("-");
+				System.out.print(" ");
 			}
 			// *
 			for (int j = 0; j < (2 * i - 1); j++) {
@@ -73,8 +73,6 @@ public class Pascal_triangle {
 		space(s1 + 1, s2);
 	}
 
-	private static int i = 0;
-
 	public static void star(int st1, int st2) {
 		if (st1 > st2)
 			return;
@@ -83,38 +81,22 @@ public class Pascal_triangle {
 	}
 
 	// Task 2.3 (Optional): Implement drawChristmasTree(int n)
-	public static void drawChristmasTree(int n) {
-//		if(n<1)return;
-
-		drawChristmasTree(1, n);
-
-//		drawChristmasTree(n - 1);
-
-	}
-
-	private static void drawChristmasTree(int i, int n) {
-		if (i > n)
-			return;
-
-for (int j = i; j < n; j++) {
-
-	space(i, n);
-
-}
-row(1, i);
-	
-drawChristmasTree(i + 1, n);
-
-	}
+//	public static void drawChristmasTree(int n) {
+////		if(n<1)return;
+//
+//
+////		drawChristmasTree(n - 1);
+//
+//	}
 
 	public static void main(String[] args) {
-//		int[] prevRow = { 1, 2, 1 };
-//		System.out.println(Arrays.toString(generateNextRow(prevRow)));
-//		System.out.println(Arrays.toString(getPascalTriangle(3)));
-//		printPascalTriangle(4);
-//		drawPyramid(5);
-//		row(1, 5);
-		drawChristmasTree(4);
+		int[] prevRow = { 1, 2, 1 };
+		System.out.println(Arrays.toString(generateNextRow(prevRow)));
+		System.out.println(Arrays.toString(getPascalTriangle(3)));
+		printPascalTriangle(4);
+		drawPyramid(5);
+		row(1, 5);
+//		drawChristmasTree(4);
 
 	}
 }
