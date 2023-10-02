@@ -1,4 +1,4 @@
-package recursion;
+package lab2_recursion;
 
 public class Fibonacci {
 	// get the nth value of the Fibonacci series

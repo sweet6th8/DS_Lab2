@@ -1,4 +1,4 @@
-package recursion;
+package lab2_recursion;
 
 import java.util.Arrays;
 

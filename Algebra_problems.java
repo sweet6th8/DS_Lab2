@@ -1,4 +1,4 @@
-package recursion;
+package lab2_recursion;
 
 /*
 Task 1.1: Using recursive approach to implement the following Algebra problems:

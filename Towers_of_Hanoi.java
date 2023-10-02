@@ -1,4 +1,4 @@
-package recursion;
+package lab2_recursion;
 
 public class Towers_of_Hanoi {
 	static char[] c = { 'A', 'B', 'C' };
